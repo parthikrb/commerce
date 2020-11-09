@@ -1,0 +1,15 @@
+.filter {
+  height: calc(100% - 50px);
+  margin: 15px;
+  background-color: var(--background-white);
+  bottom: 15px !important;
+  padding: 10px;
+}
+
+.filter__header {
+  border-bottom: 1px solid #dcdde1;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: var(--primary-dark) !important;
+}
