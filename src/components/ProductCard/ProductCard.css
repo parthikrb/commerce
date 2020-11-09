@@ -27,6 +27,11 @@
   width: 100%;
 }
 
+.product__header > p {
+  font-size: x-small;
+  margin: 5px 3px !important;
+}
+
 .product__name {
   display: flex;
   flex-grow: 1;
@@ -35,7 +40,7 @@
 }
 
 .star-ratings {
-  margin: 0px 3px !important;
+  margin: 0px 0px !important;
 }
 
 .product__sale {

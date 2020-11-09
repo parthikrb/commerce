@@ -24,10 +24,11 @@ const ProductCard = React.forwardRef((props, ref) => {
           rating={rating}
           starRatedColor="gold"
           starDimension="12px"
-          starSpacing="2px"
+          starSpacing="1px"
           numberOfStars={5}
           name="rating"
         />
+        <p>(26)</p>
       </div>
       <div className="product__secondary">
         <div className="product__prices">
