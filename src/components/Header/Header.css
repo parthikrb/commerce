@@ -1,0 +1,47 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #68c93ba8;
+  display: flex;
+  position: fixed;
+}
+
+.header__brand {
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.header__search-input {
+  height: 40px;
+  width: 40%;
+  background-color: white;
+  outline-width: 0;
+  border: none;
+  border-radius: 25px;
+  padding: 0px 20px;
+}
+
+.header__right-side {
+  display: flex;
+  padding: 10px;
+}
+
+.header__right-side_cart,
+.header__right-side_auth {
+  display: flex;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.MuiSvgIcon-root {
+  margin-right: 3px !important;
+  color: gray !important;
+}
