@@ -13,6 +13,7 @@ const getProducts = () => {
       offer_price: randomNumber(200),
       onSale: randomNumber(200) % 3 === 0 ? true : false,
       rating: randomNumber(5),
+      ratingCount: randomNumber(2000),
     });
   }
 

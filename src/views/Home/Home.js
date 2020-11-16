@@ -18,6 +18,7 @@ const Home = (props) => {
         offerPrice={product.product.offer_price}
         onSale={product.product.onSale}
         rating={product.product.rating}
+        ratingCount={product.product.ratingCount}
       />
     );
   });

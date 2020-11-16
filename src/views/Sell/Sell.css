@@ -1,0 +1,41 @@
+.sell-container {
+  top: 100px;
+  position: relative;
+}
+
+.sell-container__title {
+  text-align: center;
+  font-weight: bold !important;
+  font-size: large !important;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.MuiStepLabel-label {
+  font-size: larger !important;
+  font-weight: bolder !important;
+}
+
+.sell-container__start-sell {
+  margin: 45px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sell-container__start-sell-btn {
+  background-color: var(--primary-dark);
+  width: 200px;
+  height: 60px;
+  border: none;
+  outline-width: 0;
+  font-weight: bold !important;
+  border-radius: 12px;
+}
+
+.sell-container__start-sell-btn:hover {
+  background-color: var(--primary-lite);
+}
